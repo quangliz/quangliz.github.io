@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam - Online Exam Portal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="exam.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Exam</h1>
+    </header>
+    <main>
+        <form id="exam-form" action="/submit-exam" method="post">
+            <!-- Questions will be dynamically loaded here -->
+            <div id="questions-container"></div>
+            
+            <button type="submit">Submit Exam</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Exam Portal</p>
+    </footer>
+</body>
+</html>
